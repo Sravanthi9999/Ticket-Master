@@ -1,0 +1,14 @@
+tickTime={{ tick_time }}
+dataDir={{ data_dir }}
+dataLogDir={{ log_dir }}
+clientPort={{ client_port }}
+initLimit={{ init_limit }}
+syncLimit={{ sync_limit }}
+
+{% if install_mode == "standalone" %}
+server.{{zoo_id}}={{inventory_hostname}}:2888:3888
+{% elif install_mode == "cluster" %}
+{% for server in play_hosts %}
+server.{{loop.index}}={{server}}:2888:3888
+{% endfor %}
+{% endif %}
