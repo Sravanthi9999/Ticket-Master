@@ -1,0 +1,11 @@
+[
+  {
+    "targets": [
+      "fbpau3335.amer.corp.xpo.com:15692",
+      "fbpau3336.amer.corp.xpo.com:15692"
+    ],
+    "labels": {
+      "job": "rabbitmq-fb-prod"
+    }
+  }
+]

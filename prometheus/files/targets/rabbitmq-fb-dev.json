@@ -1,0 +1,10 @@
+[
+  {
+    "targets": [
+      "fbdau2612.devamer.devcorp.xpo.com:15692"
+    ],
+    "labels": {
+      "job": "rabbitmq-fb-dev"
+    }
+  }
+]

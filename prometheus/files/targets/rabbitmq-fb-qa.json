@@ -1,0 +1,11 @@
+[
+  {
+    "targets": [
+      "fbtau2613.qaamer.qacorp.xpo.com:15692",
+      "fbtau2614.qaamer.qacorp.xpo.com:15692"
+    ],
+    "labels": {
+      "job": "rabbitmq-fb-qa"
+    }
+  }
+]
